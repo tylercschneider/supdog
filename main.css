@@ -1,11 +1,40 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #d7e0e7;
 }
 
 #logo, .brand{
     font-family: 'Pacifico', cursive;
 }
 
+h1{
+    margin: auto;
+    text-align: center;
+}
+
 a{
     text-decoration: none;
+    margin-left: 4px;
+}
+
+img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    clear: both;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #96abb0;
+    padding: 1px 12px;
+}
+
+.brand{
+    font-size: 2em;
+    padding-right: 8px;
+    border-right: solid black 2px;
 }

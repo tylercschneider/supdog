@@ -16,7 +16,7 @@ body{
 }
 
 h1{
-    margin: 13px auto 13px auto;
+    margin: 10px auto 10px auto;
     text-align: center;
     font-size: 4rem;
 }
@@ -70,9 +70,7 @@ img{
 .bio {
     align-items: flex-start;
     padding-top: 20px;
-}
-.contact {
-    border: 2px solid black;
+    margin: 2%;
 }
 @media only screen and (max-width: 768px) {
     .vertical, .container   {
@@ -91,9 +89,8 @@ img{
     .nav{
         margin-bottom: 2%;
     }
-    .contact{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+
+    p {
+        font-size: 1.25rem;
     }
 }

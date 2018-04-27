@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: #e7e7e7;
+    background-color: #d7e0e7;
     color: #46433e;
     padding: 0%;
     margin: 0%;
@@ -8,25 +8,26 @@ body{
 
 #logo, .brand{
     font-family: 'Pacifico', cursive;
-    Color: #f44336
+    Color: #c94646;
 }
 
 h1{
     margin: 13px auto 13px auto;
     text-align: center;
+    font-size: 4rem;
 }
 
 a{
     text-decoration: none;
     margin-left: 4px;
-    Color: #f44336;
+    Color: #c94646;
 }
 
 img{
     width: 58%;
     display: block;
     margin: auto;
-    border-radius: 4px;
+    border-radius: px;
 }
 
 .navbar{
@@ -34,16 +35,17 @@ img{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #46443e;
     width: 100%;
 }
 
 .nav{
-    padding-right: 5px;
+    padding-right: 3%;
     font-weight: 600;
 }
 
 .brand{
+    padding-left: 2%;
     font-size: 2em;
 }
 
@@ -61,14 +63,43 @@ img{
 }
 
 button{
-    border-radius: 4px;
+    border-radius: 8px;
     border: none;
     font-size: 16px;
-    background-color: #008cba;
+    background-color: #96abb0;
+    width: 15%;
     padding: 1rem;
     margin: 0 2% 0 2%;
 }
 
 #logo{
-    font-size: 4em;
+    font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+    }
+    .brand{
+        margin: auto;
+        font-size: 3rem;
+
+    }
+    .buttonwrapper{
+        flex-direction: column;
+    }
+    button{
+        margin-bottom: 5%;
+        width: auto;
+    }
+
+    img{
+        width: 80%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .nav{
+        margin-bottom: 2%;
+    }
 }

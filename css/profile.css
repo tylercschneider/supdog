@@ -1,0 +1,69 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d7e0e7;
+}
+.container, .row {
+    display: flex;
+}
+#logo, .brand{
+    font-family: 'Pacifico', cursive;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    clear: both;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #96abb0;
+    padding: 1px 12px;
+}
+
+.brand{
+    font-size: 2em;
+    padding-right: 8px;
+    border-right: solid black 2px;
+}
+.row {
+    justify-content: space-around;
+}
+.container {
+    justify-content: space-around;
+}
+.fifty {
+    width: 50%;
+}
+.vertical {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.bio {
+    align-items: flex-start;
+    padding-top: 20px;
+}
+.contact {
+    border: 2px solid black;
+}
+@media query and screen (max-width: 750px) {
+    .fifty {
+        width: 100%;
+    }
+}

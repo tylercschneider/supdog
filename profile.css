@@ -1,0 +1,99 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d7e0e7;
+    color: #46433e;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container, .row {
+    display: flex;
+}
+
+#logo, .brand{
+    font-family: 'Pacifico', cursive;
+    Color: #c94646;
+}
+
+h1{
+    margin: 13px auto 13px auto;
+    text-align: center;
+    font-size: 4rem;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 4px;
+    Color: #c94646;
+}
+
+img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    clear: both;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #46443e;
+    width: 100%;
+}
+
+.nav{
+    padding-right: 3%;
+    font-weight: 600;
+}
+
+.brand{
+    padding-left: 2%;
+    font-size: 2em;
+}
+.row {
+    justify-content: space-around;
+}
+.container {
+    justify-content: space-around;
+}
+.fifty {
+    width: 50%;
+}
+.vertical {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.bio {
+    align-items: flex-start;
+    padding-top: 20px;
+}
+.contact {
+    border: 2px solid black;
+}
+@media only screen and (max-width: 768px) {
+    .vertical, .container   {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .brand{
+        margin: auto;
+        font-size: 3rem;
+
+    }
+    .nav{
+        margin-bottom: 2%;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
